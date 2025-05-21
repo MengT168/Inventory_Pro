@@ -65,7 +65,7 @@
               </div>
               <h4>Hello! let's get started</h4>
               <h6 class="font-weight-light">Sign in to continue.</h6>
-              <form class="pt-3" method="post" action="/loginSubmit">
+              <form class="pt-3" method="post" action="/signInSubmit">
                 @csrf
                 <div class="form-group">
                   <input type="text" name="username" class="form-control form-control-lg" id="usertxt" placeholder="Username">
@@ -82,7 +82,7 @@
                   <a href="#" id="btnlog" class="btn btn-primary">Login</a>
                 </div>
                 <div class="text-center mt-4 font-weight-light">
-                  Don't have an account? <a href="/register" class="text-primary">Create</a>
+                  Don't have an account? <a href="/signup" class="text-primary">Create</a>
                 </div>
               </form>
             </div>
